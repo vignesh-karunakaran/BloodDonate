@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BloodDonate</string>
+    <string name="hint_email">Enter your email here</string>
+    <string name="hint_password">Enter your password here</string>
+    <string name="Login_button">Login</string>
+    <string name="Register">Have not registered yet? Double click here</string>
+    <string name="title_activity_register">Register</string>
+    <string name="Registerdata">hello this is register</string>
+    <string name="uname">enter name</string>
+    <string name="ustate">enter state</string>
+    <string name="udistrict">enter district</string>
+    <string name="uphone">enter phone no</string>
+    <string name="Registering">Register here</string>
+    <string name="title_activity_maps">Map</string>
+
+        <string-array name="BloodGroups">
+            <item>SelectBloodGroup</item>
+            <item>O+</item>
+            <item>O-</item>
+            <item>A+</item>
+            <item>A-</item>
+            <item>B+</item>
+            <item>B-</item>
+            <item>AB+</item>
+            <item>AB-</item>
+        </string-array>
+
+</resources>

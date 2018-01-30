@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.vicky.blooddonate.RegisterActivity">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/colorwhite"
+            android:layout_marginBottom="10dp"
+            android:hint="UserName"
+
+            android:textColorHint="@color/colorwhite"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorwhite"
+            android:hint="Password"
+            android:textColorHint="@color/colorwhite"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/cpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirm Password"
+
+            android:textColor="@color/colorwhite"
+            android:textColorHint="@color/colorwhite"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/colorwhite"
+            android:hint="Mobile Number"
+            android:textColorHint="@color/colorwhite"
+            android:layout_marginBottom="10dp"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/colorwhite"
+            android:hint="E-mailID (Optional)"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/colorwhite"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/colorwhite"
+            android:hint="Enter Area"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/colorwhite"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter District"
+            android:textColor="@color/colorwhite"
+            android:textColorHint="@color/colorwhite"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/bloogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="BloodGroup"
+            android:textColor="@color/colorwhite"
+            android:textColorHint="@color/colorwhite"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorwhite"
+            android:text="Register" />
+    </LinearLayout>
+</RelativeLayout>
